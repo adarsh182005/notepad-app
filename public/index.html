@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Notepad App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📝 My Notepad</h1>
+
+    <form id="noteForm" class="note-form">
+      <input type="text" id="title" placeholder="Note Title" required />
+      <textarea id="content" placeholder="Write your note here..." required></textarea>
+      <button type="submit">Add Note</button>
+    </form>
+
+    <h2>Your Notes</h2>
+    <div id="notesContainer" class="notes-grid"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
