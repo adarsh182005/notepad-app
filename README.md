@@ -1,4 +1,4 @@
-README.md
+
 A simple notepad application that allows users to create and manage notes.
 
 Tech Stack
